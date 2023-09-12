@@ -1,0 +1,123 @@
+.header{
+  background-color: rgb(63, 129, 252);
+  color:white;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0; 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  font-size:130%;
+  font-weight: 500;
+  z-index: 9999;
+}
+
+
+
+.stranica{
+  width: 100%;
+  display:flex;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+body{
+    background-color: rgb(186, 255, 192);
+}
+
+.listaSudija{
+  margin-top:70px;
+  width: 15%;
+}
+
+.ukupanBrUtakmica{
+  margin-left:60%;
+  margin-top:70px;
+  width:auto;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: lightblue;
+}
+
+.karticaSudija{
+  background-color: rgb(247, 252, 255);
+  margin:50px;
+  margin-top:0px;
+  display:flex;
+  flex-direction: column;
+  width: 180px;
+  height: auto;
+  /* max-height: 600px; */
+  min-width: 80px;
+  padding: 5px;
+  border:1px solid black;
+}
+
+.iznadKartica{
+  margin:50px;
+  margin-top:0px;
+  margin-bottom:0px;
+  display:flex;
+  flex-direction: row;
+}
+
+.radioKontejner
+{
+  display:flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.tim1{
+  width: 90%;
+}
+
+.tim2{
+  width: 90%;
+}
+
+.ocenaSudije{
+  width: 90%;
+}
+
+.prozorcic{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.linija {
+  width: 20px;
+  height: 100px;
+  background-color: #f0f0f0;
+  margin: 5px;
+  position: relative;
+  display: inline-block;
+}
+
+.popunjena {
+  background-color: #4CAF50;
+}
+
+.txt1{
+  margin-right: 30px;
+}
+
+.txt2{
+  margin-right: 30px;
+}
+
+.txt3{
+  margin-right: 30px;
+}
+
+.pretragaLabel
+{
+  margin-left: 20px;
+}
+
+
